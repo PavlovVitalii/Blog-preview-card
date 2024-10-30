@@ -98,8 +98,10 @@ h6 {
   margin: 5px 13px;
 }
 
-h1:hover {
-  color: #f4d04e;
+@media (hover: hover) {
+  h1:hover {
+    color: #f4d04e;
+  }
 }
 
 @media (max-width: 375px) {
